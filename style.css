@@ -1,0 +1,16 @@
+body {
+  font-family: sans-serif;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+input,
+button {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+  font: inherit;
+  border: 1px solid #ccc;
+}
+

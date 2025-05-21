@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Capital Growth Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <h2>Capital Growth Over N Years</h2>
+  <label>Initial Capital (€, $): <input id="start" type="number" value="50000" /></label><br />
+  <label>Annual Contribution (€, $): <input id="contrib" type="number" value="10000" /></label><br />
+  <label>Annual Return (%): <input id="return" type="number" value="7" /></label><br />
+  <label>Period (years): <input id="years" type="number" value="5" /></label><br />
+  <button onclick="calculate()">Calculate</button>
+  
+  <canvas id="chart" style="margin-top: 30px;"></canvas>
+
+  <h3 id="final"></h3>
+  <h4 id="invested"></h4>
+  <h4 id="profit"></h4>
+  <h4 id="profitPercent"></h4>
+
+  <script src="script.js"></script>
+</body>
+</html>
